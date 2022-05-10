@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 14%;
+    padding: 2%;
+    background: pink;
+    text-align: center;
+}
+header h1{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+main{
+    width: 100%;
+    height: 70vh;
+    background-color: #d65252;
+    position: relative;
+}
+
+
+main .addwork{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+
+
+}
+.addwork input{
+    margin-top: 60px !important;
+}
+
+main .addwork input,textarea,button{
+    padding: 13px;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px rgba(223, 221, 221, 0.3);
+    font-size: 1.2rem;
+
+}
+main div{
+    float: left;
+}
+main .show{
+    width: 70%;
+}
+main .show h2{
+    padding: 10px ;
+    text-align: center;
+
+}
+main table{
+    width: 100%;
+    border-radius: 5px;
+}    
+
+.show table th{
+    font-size: 1.2rem;
+    padding: 0 20px;
+    width: 30%;
+    background: #d65252;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.show table td button
+{
+    margin: 10px;
+    padding:2px 7px;
+    font-size: 1rem;
+    float: right;
+}
+table tr{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.show table td{
+    border-radius: 5px ;
+}
+.show table tr:nth-child(even){
+    background-color: gray;
+ 
+}
+.show table tr:nth-child(odd){
+    background-color: silver;
+ 
+}
+#delete-all{
+    padding: 7px 10px;
+    font-size: 1rem;
+    position: absolute;
+    top: 480px;
+    right: 750px;
+}
+
+#clear-done{
+    padding: 7px 10px;
+    font-size: 1rem;
+    position: absolute;
+    top: 480px;
+    right: 860px;
+}
+
+
+
+
+footer{
+    background: pink;
+    height: 120px;
+    text-align: center;
+}
+footer p{
+    font-size: 1.2rem;
+    padding-top: 20px;
+    font-weight: 700;
+}
